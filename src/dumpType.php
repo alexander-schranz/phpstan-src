@@ -3,25 +3,27 @@
 namespace PHPStan;
 
 /**
+ * @template T
  * @phpstan-pure
- * @param mixed $value
- * @return mixed
+ * @param T $value
+ * @return T
  *
  * @throws void
  */
 function dumpType($value) // phpcs:ignore Squiz.Functions.GlobalFunction.Found
 {
-	return null;
+	return $value;
 }
 
 /**
+ * @template T
  * @phpstan-pure
- * @param mixed $value
- * @return mixed
+ * @param T $value
+ * @return T
  *
  * @throws void
  */
 function dumpPhpDocType($value) // phpcs:ignore Squiz.Functions.GlobalFunction.Found
 {
-	return null;
+	return $value;
 }
